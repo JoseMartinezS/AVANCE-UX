@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario - Liverpool</title>
+    <link rel="stylesheet" href="styleRegistroUsuario.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crear una Nueva Cuenta</h1>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" placeholder="Ingresa tu apellido">
+
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="10 dígitos">
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" placeholder="Ingresa tu contraseña">
+
+        <label for="confirmarContraseña">Confirmar Contraseña</label>
+        <input type="password" id="confirmarContraseña" placeholder="Repite tu contraseña">
+
+        <div class="button-container">
+            <button class="button button-back" onclick="volver()">Volver</button>
+            <button class="button button-register" onclick="registrarse()">Registrarse</button>
+        </div>
+    </div>
+
+    <script>
+        function volver() {
+            alert("Volviendo al inicio...");
+            window.location.href = "login.html";        }
+
+        function registrarse() {
+            // Obtén los valores de los campos
+            const nombre = document.getElementById('nombre').value;
+            const apellido = document.getElementById('apellido').value;
+            const correo = document.getElementById('correo').value;
+            const telefono = document.getElementById('telefono').value;
+            const contraseña = document.getElementById('contraseña').value;
+            const confirmarContraseña = document.getElementById('confirmarContraseña').value;
+
+            // Validación de campos vacíos
+            if (!nombre || !apellido || !correo || !telefono || !contraseña || !confirmarContraseña) {
+                alert("Por favor, completa todos los campos.");
+                return;
+            }
+
+            // Validación de coincidencia de contraseñas
+            if (contraseña !== confirmarContraseña) {
+                alert("Las contraseñas no coinciden.");
+                return;
+            }
+
+            // Validación de formato de correo
+            const correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!correoRegex.test(correo)) {
+                alert("Por favor, ingresa un correo electrónico válido.");
+                return;
+            }
+
+            alert("Registro exitoso. ¡Bienvenido a Liverpool!");
+            // Aquí puedes añadir la lógica para guardar el usuario en tu base de datos
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL", "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj", "{6C630E05-113E-4AC2-B73F-B4F97CD95196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C630E05-113E-4AC2-B73F-B4F97CD95196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C630E05-113E-4AC2-B73F-B4F97CD95196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C630E05-113E-4AC2-B73F-B4F97CD95196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C630E05-113E-4AC2-B73F-B4F97CD95196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03CAF1FB-E251-4B6A-888F-379BD90C166B}
+	EndGlobalSection
+EndGlobal

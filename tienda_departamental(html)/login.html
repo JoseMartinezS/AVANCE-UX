@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Título de Bienvenida -->
+        <h2 class="welcome-text">Bienvenido</h2>
+
+        <!-- Campo de Usuario -->
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" placeholder="Ingresa tu usuario" class="input-field">
+
+        <!-- Campo de Contraseña -->
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" class="input-field">
+
+        <!-- Botón de Login -->
+        <button class="login-button" onclick="iniciar()">Ingresar</button>
+
+        <!-- Enlace de Registro -->
+        <p class="register-link">
+            <a href="RegistroUsuario.html">¿No tienes cuenta? Regístrate aquí</a>
+        </p>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <script>
+        function iniciar() {
+            alert("Iniciadno Sesion...");
+            window.location.href = "Infromacion.html";        }
+
+    </script>
+</body>
+</html>

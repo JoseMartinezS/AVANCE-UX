@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Crédito</title>
+    <link rel="stylesheet" href="styleInformacion.css">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <div class="header">
+        <h1>Consulta de Crédito</h1>
+        <img src="https://cdn-icons-png.flaticon.com/512/1312/1312307.png" alt="Icono de productos" class="header-icon" onclick="abrirProductosDisponibles()">
+    </div>
+
+    <!-- Información del crédito -->
+    <div class="content">
+        <p><strong>Límite de Crédito:</strong> $3000</p>
+        <p><strong>Saldo Disponible:</strong> $2500</p>
+
+        <!-- Historial de Compras -->
+        <h2>Historial de Compras:</h2>
+        <table class="purchase-history">
+            <tr>
+                <th>Fecha</th>
+                <th>Descripción</th>
+                <th>Monto</th>
+            </tr>
+            <tr>
+                <td>01/11/2024</td>
+                <td>Compra en tienda</td>
+                <td>$500</td>
+            </tr>
+            <!-- Agregar más filas según sea necesario -->
+        </table>
+
+        <!-- Pagos -->
+        <h3 class="clickable" onclick="abrirPagos()">Pagos</h3>
+        <p><strong>Pagos Vencidos:</strong> Ninguno</p>
+        <p><strong>Próximo Pago:</strong> 15/11/2024</p>
+        <p><strong>Fecha de Corte:</strong> 30/11/2024</p>
+
+        <!-- Botones -->
+        <div class="button-container">
+            <button onclick="volver()">Volver</button>
+            <button onclick="aumentoCredito()">Aumento de Crédito</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+
+        // Función para redirigir a la página principal
+function volver() {
+    window.location.href = "http://127.0.0.1:5500/login.html";
+}
+
+// Función para abrir la sección de productos disponibles
+function abrirProductosDisponibles() {
+    // Aquí puedes redirigir a la página de productos disponibles
+    window.location.href = "productosdisponibles.html"; // Cambiar por la URL de la página
+}
+
+// Función para abrir la sección de pagos
+function abrirPagos() {
+    // Aquí puedes redirigir a la página de pagos
+    window.location.href = "pago.html"; // Cambiar por la URL de la página
+}
+
+// Función para abrir la solicitud de aumento de crédito
+function aumentoCredito() {
+    // Aquí puedes redirigir a la página de solicitud de crédito
+    window.location.href = "aumentocredito.html"; // Cambiar por la URL de la página
+}
+
+    </script>
+</body>
+</html>

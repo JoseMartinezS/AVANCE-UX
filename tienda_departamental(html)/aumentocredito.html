@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleaumento.css">
+
+    <title>Solicitud de Crédito</title>
+    <style>
+        
+    </style>
+    <script>
+        function cargarArchivo(tipo) {
+            let input = document.createElement('input');
+            input.type = 'file';
+            input.accept = tipo === 'pdf' ? '.pdf' : '.jpg, .jpeg, .png';
+            
+            input.onchange = function(event) {
+                let archivo = event.target.files[0];
+                if (archivo) {
+                    alert('Archivo cargado: ' + archivo.name);
+                    return true;
+                } else {
+                    alert('No se seleccionó ningún archivo.');
+                    return false;
+                }
+            };
+            input.click();
+        }
+
+        function enviarSolicitud() {
+            const nombre = document.getElementById('nombre').value;
+            const ingreso = document.getElementById('ingreso').value;
+
+            if (!nombre) {
+                alert("El campo 'Nombre del Cliente' es obligatorio.");
+                return;
+            }
+
+            if (!ingreso) {
+                alert("El campo 'Ingreso Mensual' es obligatorio.");
+                return;
+            }
+
+            if (!comprobanteCargado) {
+                alert("Debes cargar el comprobante de domicilio.");
+                return;
+            }
+
+            if (!ineCargado) {
+                alert("Debes cargar la imagen de tu INE.");
+                return;
+            }
+
+            alert("Solicitud enviada para análisis.");
+        }
+
+        let comprobanteCargado = false;
+        let ineCargado = false;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Solicitud de Crédito</h1>
+
+        <!-- Campo para el Nombre del Cliente -->
+        <label for="nombre">Nombre del Cliente:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre aquí">
+
+        <!-- Campo para el Ingreso Mensual -->
+        <label for="ingreso">Ingreso Mensual:</label>
+        <input type="text" id="ingreso" placeholder="Escribe tu ingreso mensual aquí">
+
+        <!-- Botón para cargar Comprobante de Domicilio -->
+        <button class="button" onclick="comprobanteCargado = cargarArchivo('pdf')">Cargar Comprobante de Domicilio (PDF)</button>
+
+        <!-- Botón para cargar INE -->
+        <button class="button" onclick="ineCargado = cargarArchivo('image')">Cargar INE (Imagen)</button>
+
+        <!-- Botón para enviar solicitud -->
+        <button class="button" onclick="enviarSolicitud()">Enviar Solicitud</button>
+
+        <!-- Botón para volver -->
+        <button class="button-secondary" onclick="window.history.back()">Volver</button>
+    </div>
+</body>
+</html>

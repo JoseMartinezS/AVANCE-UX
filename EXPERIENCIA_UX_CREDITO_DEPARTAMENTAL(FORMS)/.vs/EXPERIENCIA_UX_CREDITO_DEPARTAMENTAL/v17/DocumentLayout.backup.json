@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|c:\\users\\pepec\\source\\repos\\experiencia_ux_credito_departamental\\experiencia_ux_credito_departamental\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|solutionrelative:experiencia_ux_credito_departamental\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|c:\\users\\pepec\\source\\repos\\experiencia_ux_credito_departamental\\experiencia_ux_credito_departamental\\productosdisponibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|solutionrelative:experiencia_ux_credito_departamental\\productosdisponibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|c:\\users\\pepec\\source\\repos\\experiencia_ux_credito_departamental\\experiencia_ux_credito_departamental\\informacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|solutionrelative:experiencia_ux_credito_departamental\\informacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|c:\\users\\pepec\\source\\repos\\experiencia_ux_credito_departamental\\experiencia_ux_credito_departamental\\productosdisponibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C630E05-113E-4AC2-B73F-B4F97CD95196}|EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL.csproj|solutionrelative:experiencia_ux_credito_departamental\\productosdisponibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosDisponibles.cs",
+              "DocumentMoniker": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "RelativeDocumentMoniker": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "ToolTip": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "RelativeToolTip": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:28:30.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagosForm.cs",
+              "DocumentMoniker": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\PagosForm.cs",
+              "RelativeDocumentMoniker": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\PagosForm.cs",
+              "ToolTip": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\PagosForm.cs",
+              "RelativeToolTip": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\PagosForm.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswIQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:25:42.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosDisponibles.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "RelativeDocumentMoniker": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs",
+              "ToolTip": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\ProductosDisponibles.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:23:05.338Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "INFORMACION.cs",
+              "DocumentMoniker": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\INFORMACION.cs",
+              "RelativeDocumentMoniker": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\INFORMACION.cs",
+              "ToolTip": "C:\\Users\\pepec\\source\\repos\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\INFORMACION.cs",
+              "RelativeToolTip": "EXPERIENCIA_UX_CREDITO_DEPARTAMENTAL\\INFORMACION.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:51:42.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
